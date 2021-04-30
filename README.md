@@ -1,7 +1,7 @@
 # Online Portfolio
 This is a portfolio of work from the Geog5003M practical sessions.
 
-#Agent based model
+# Agent based model
 
 The practical involves building an agent based model which interacts with its environment and where agents interact with each other. The model developed follows the structure guided by the instructions except with respect to the following enhancements.
 
@@ -15,14 +15,14 @@ In addition agents with more than 1000 score were given the ability to move two 
 
 **Output:** The output is an ordered "league table" of agents based on their score. Due to the method of sharing the most powerful tend to end closer to the top of the league table.
 
-##Installation
+#Installation
 Include instructions here about how to run it
 
-##Usage
+#Usage
 Examples of how it works
 
-##Contributing
+#Contributing
 Since this is simply a students practical work contributions are not permitted.
 
-##License
+#License
 To be determined
