@@ -10,7 +10,7 @@ There are two models. The main model has a gui and an animation (guimodel.py) bu
 There is also a simple version (simplemodel.py) which has no known bugs but no gui or animation. Both models use the same associated agentframework.py  
 
 # Model enhancements
-The model developed follows the structure guided by the instructions except with respect to the following enhancements.
+The model developed follows the structure guided by the instructions except with respect to the following enhancements. It has been developed into a tournament with a winner at the end.
 
 **Agent naming and power:** Agents are given unique names so they can be more easily identified and each agent is given a "power rating" ranging from 1 (most powerful)to 6 (least powerful).
 The agent names and powers have been loaded from a text file and are based on the names of English football teams and their respective divisions. 
@@ -26,7 +26,7 @@ If two agents meet of the same power then they share their units equally as desc
 Due to the method of sharing the most powerful tend to end closer to the top of the league table.
 
 #Installation and usage
-The program can be run at the command line or within Spyder. At the command line you can optionally enter arguments for number of agents, number of iterations and neighboiurhood distance.
+The program can be run at the command line or within Spyder. At the command line you can optionally enter arguments for number of agents, number of iterations and neighbourhood distance.
 To run at the command line enter python modelname.py x y z (where x y and z are integers)
 If no valid arguments are entered the model runs with defaults.
 The maximum for agents is 95 (this is the number of agent names in the clubnames.txt file).
@@ -35,13 +35,13 @@ There is no maximum for neighbourhood distance but the environment is a square w
 The simple model runs on its own with no further user interaction.
 The GUI model creates a menu, you need to select run model from the drop down list and at the end you need to close the animation window.
 
-To run the simplemodel.py in Spyder ensure that tools/preferences/ipyhton module/graphics is set to inline
-To run the guimodel.py in Spyder ensure that tools/preferences/ipython module/graphics is set to tkinter
-To run the guimodel.py in Spyder enter in the console %matplotlib qt and then %gui tk
+To run the simplemodel.py in Spyder ensure that tools/preferences/ipython module/graphics is set to inline.
+To run the guimodel.py in Spyder ensure that tools/preferences/ipython module/graphics is set to tkinter.
+To run the guimodel.py in Spyder enter in the console %matplotlib qt and then %gui tk.
 
 #Inputs and outputs
 The inputs are two text files (in.txt and clubnames.txt). In addition the initial co-ordinates of the agents are entered from a website. 
-The outputs of both models are a league table (printed and saved to the excel file finaltable.xlsx) a text file with the environment after it has been eaten (environment.txt)
+The outputs of both models are a league table (printed and saved to the excel file finaltable.xlsx) a text file with the environment after it has been eaten (environment.txt).
 The simplemodel.py produces two plots - a before plot of the environment and an after plot of the eaten environment and the locations of the agents.
 The guimodel.py produces an animation.   
 
@@ -57,15 +57,15 @@ The coding was tested as it was developed, primarily by printing out variables o
 In most cases the testing lines have been left in the code but commented out. 
 **Specific tests**
 In particular the move function was tested by making sure that the before and after co-ordinates made sense with one or two iterations.
-The move function was also tested by running a high number of iterations and observing closely the patterns of "eaten" environment. IN this way one of the limitation of the original move function was discovered.
-The store (remaned score) function was tested to ensure that it grew by an appropriate amount with small numbers of iterations. This is how the iteration problem with the guimodel was identified.
+The move function was also tested by running a high number of iterations and observing closely the patterns of "eaten" environment. In this way one of the limitations of the original move function was discovered.
+The store (renamed score) function was tested to ensure that it grew by an appropriate amount with small numbers of iterations. This is how the iteration problem with the guimodel was identified.
 The sharing model was tested by printing out when a share took place and the before and after score of each sharing agent.
 The jump mode of moving was tested to see when a jump move ocurred.
   
 **Timing**
 The code was also timed to establis its efficiency. A further development would involve running the code automatically with different arguments entered.
 The output could then be plotted to show how the time taken changes with more agents and more iterations.
-Timing of the guimodel does not make sense as it depends how quickly the user clicks on the dropdown menu (a further development would be to measure the time of individual functions and iteratioons)
+Timing of the guimodel does not make sense as it depends how quickly the user clicks on the dropdown menu (a further development would be to measure the time of individual functions)
 The guimodel is slower because the number of iterations is multiplied in the animation function so it is advisable to keep iterations below 1000.
 
 Typical times for the simple model are as follows (based on an average from 3 runs):
@@ -81,7 +81,7 @@ Agents 10  iterations  100000 time 16.12 seconds
   
 #Sources
 The main structure of the code is guided by the course notes and the material shared on the collaboration thread. 
-Various open source resources were consulted and in some cases snippets of code were copied and adapted for use in the model.This has been indicated by commenting in the code. 
+Various open source resources (for example stack overflow) were consulted and in some cases snippets of code were copied and adapted for use in the model.This has been indicated by commenting in the code. 
 
 #Contributing
 Since this is simply a students practical work contributions are not expected.
