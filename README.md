@@ -50,7 +50,7 @@ The simplemodel.py works as expected.
 The guimodel.py has some remaining bugs. The number of iterations is more than expected. This is because the agent iterations and the animation iterations have separate threads.
 So if you set iterations to 1 there are actually two iterations run. If you set iterations to two there are 6 iterations run.
 The main function has been disabled. This is because it produces a number of error messages (although the code still runs).
-Disabling main enables the program to run without error messages but the user has to close the animation window.
+Disabling main enables the program to run without error messages but the user has to close the animation window and an additional empty window is opened behind the animation window.
 
 ## Testing
 The coding was tested as it was developed, primarily by printing out variables or iterations as the code runs.
@@ -81,7 +81,8 @@ Typical times for the simple model are as follows (based on an average from 3 ru
 * Agents 95  iterations    1000 time 12.31 seconds
 * Agents 10  iteration    10000 time  2.32 seconds
 * Agents 10  iterations  100000 time 16.12 seconds
-  
+Note that timing (particularly for a low number of agents) will be influenced by speed of web connection to download the data.
+
 ## Sources
 The main structure of the code is guided by the course notes and the material shared on the collaboration thread. 
 Various open source resources (for example stack overflow) were consulted and in some cases snippets of code were copied and adapted for use in the model.This has been indicated by commenting in the code. 
