@@ -1,0 +1,95 @@
+A.F.C. Bournemouth	3
+A.F.C. Wimbledon	4
+Accrington Stanley	4
+Arsenal	1
+Aston Villa F.C.	2
+Barnsley F.C.	3
+Barrow AFC	5
+Birmingham City F.C.	3
+Blackburn Rovers F.C.	3
+Blackpool F.C.	4
+Bolton Wanderers F.C.	5
+Bradford City A.F.C.	5
+Brentford F.C.	3
+Brighton & Hove Albion F.C.	2
+Bristol City F.C.	3
+Bristol Rovers F.C.	4
+Burnley F.C.	2
+Burton Albion F.C.	4
+Cambridge United F.C.	5
+Cardiff City F.C.	3
+Carlisle United F.C.	5
+Charlton Athletic F.C.	4
+Chelsea F.C.	1
+Cheltenham Town F.C.	5
+Colchester United F.C.	5
+Coventry City F.C.	3
+Crawley Town F.C.	5
+Crewe Alexandra F.C.	4
+Crystal Palace F.C.	2
+Derby County F.C.	3
+Doncaster Rovers F.C.	4
+Everton F.C.	2
+Exeter City F.C.	5
+Fleetwood Town F.C.	4
+Forest Green Rovers	5
+Fulham F.C.	2
+Gillingham F.C.	4
+Grimsby Town F.C.	5
+Huddersfield Town A.F.C.	3
+Hull City A.F.C.	4
+Ipswich Town F.C.	4
+Leeds United F.C.	2
+Leicester City F.C.	2
+Leyton Orient F.C.	5
+Lincoln City F.C.	4
+Liverpool F.C.	1
+Luton Town F.C.	3
+Manchester City F.C.	1
+Manchester United F.C.	1
+Mansfield Town F.C.	5
+Middlesbrough F.C.	3
+Millwall F.C.	3
+MK Dons	4
+Morecambe	5
+Newcastle United	2
+Newport County A.F.C.	5
+Norwich City F.C.	3
+Nottingham Forest F.C.	3
+Notts County F.C.	6
+Oldham Athletic A.F.C.	4
+Oxford United F.C.	4
+Peterborough United F.C.	4
+Plymouth Argyle F.C.	4
+Port Vale F.C.	4
+Portsmouth F.C.	4
+Preston North End F.C.	3
+Queens Park Rangers F.C.	3
+Reading F.C.	3
+Rochdale A.F.C.	4
+Rotherham United F.C.	3
+Salford City F.C.	5
+Scunthorpe United F.C.	5
+Sheffield United F.C.	2
+Sheffield Wednesday F.C.	3
+Southampton F.C.	2
+Southend United F.C.	3
+Stevenage F.C.	3
+Stoke City F.C.	3
+Sunderland A.F.C.	4
+Sutton United F.C.	6
+Swansea City A.F.C.	3
+Swindon Town F.C.	3
+Torquay United F.C.	6
+Tottenham Hotspur F.C.	1
+Tranmere Rovers F.C.	3
+Walsall F.C.	3
+Watford F.C.	3
+West Bromwich Albion F.C.	2
+West Ham United F.C.	2
+Wigan Athletic F.C.	3
+Woking F.C.	6
+Wolverhampton Wanderers F.C.	2
+Wrexham F.C.	6
+Wycombe Wanderers F.C.	3
+Yeovil Town F.C.	6
