@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simon Poole | AI for Boards & Investors</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    img.profile {
+      width: 150px;
+      border-radius: 50%;
+      margin: 1rem auto;
+      display: block;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      max-width: 500px;
+    }
+    input, textarea {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      padding: 0.5rem;
+      background-color: #003366;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #e9ecef;
+    }
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Simon Poole</h1>
+    <p>AI Implementation for Boards, Executive Teams, and Private Equity</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="ai-for-boards.html">AI for Boards</a>
+    </nav>
+  </header>
+  <main>
+    <img src="https://media.licdn.com/dms/image/C4D03AQHDXOY5SOGWFA/profile-displayphoto-shrink_400_400/0/1516173846844?e=1720051200&v=beta&t=Fd28CP36XcUMMEcVKHvNOKtJhfvqMbIkKzV_fvU72ko" alt="Simon Poole" class="profile" />
+    <section>
+      <h2>About</h2>
+      <p>
+        I'm focused on helping boards, executive teams and private equity investors understand and implement AI where it matters — strategy, governance and operational leverage. 
+        It's not about chasing trends. It's about using technology thoughtfully to enhance judgment, improve communication, and get better decisions made faster.
+      </p>
+    </section>
+    <section>
+      <h2>Current Focus</h2>
+      <ul>
+        <li>Embedding AI into board-level decision processes</li>
+        <li>Creating executive-ready analytics from complex datasets</li>
+        <li>Supporting value creation plans with AI tools and governance insight</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <form action="mailto:simonhpoole@yahoo.co.uk" method="post" enctype="text/plain">
+        <label>Name:</label>
+        <input type="text" name="name" required />
+        <label>Email:</label>
+        <input type="email" name="email" required />
+        <label>Message:</label>
+        <textarea name="message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <section>
+      <h2>Connect</h2>
+      <p>
+        You can find more of my work and writing on LinkedIn:<br />
+        <a href="https://www.linkedin.com/in/simon-poole-b9a9101" target="_blank">Simon Poole on LinkedIn</a>
+      </p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Simon Poole. All rights reserved.
+  </footer>
+</body>
+</html>
